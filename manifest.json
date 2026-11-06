@@ -1,0 +1,78 @@
+[
+  {
+    "guid": "5b0f7c1e-3a6d-4f2b-9e84-2c71d0a9b6e3",
+    "name": "HEIC Photos",
+    "description": "Indexes HEIC/HEIF photos, reads EXIF/GPS metadata, decodes tiled iPhone/Android HEICs via FFmpeg 8 stream groups, and transcodes fullscreen slideshows to 4K WebP.",
+    "overview": "Full HEIC/HEIF photo and 4K browser slideshow support",
+    "owner": "koopjm",
+    "category": "General",
+    "imageUrl": "https://raw.githubusercontent.com/koopjm/jellyfin-heic-plugin/main/thumb.png",
+    "versions": [
+      {
+        "version": "1.0.0.0",
+        "changelog": "Jellyfin 12.4 release: 4K WebP slideshow download filter + FFmpeg 8 HEIC tile grid decoding + EXIF/GPS metadata.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/koopjm/jellyfin-heic-plugin/releases/download/v1.0.0.0/Jellyfin.Plugin.HeicPhotos_1.0.0.0.zip",
+        "checksum": "13EDFCE94840A41478DFB5D47F546612",
+        "timestamp": "2026-11-06T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "guid": "a18f3d21-6c40-4e9a-8b12-91d0e4f7a101",
+    "name": "Music Visualizer",
+    "description": "Interactive fullscreen audio visualizer (Frequency Bars, Waveform, Circular Bars, 3D Rotating Spectrum, 3D Starfield, Rainbow Road) with dynamic synchronized lyrics and artist backdrop slideshow.",
+    "overview": "Interactive fullscreen audio visualizer with synchronized lyrics",
+    "owner": "koopjm",
+    "category": "General",
+    "imageUrl": "https://raw.githubusercontent.com/koopjm/jellyfin-plugin-musicvisualizer/main/thumb.png",
+    "versions": [
+      {
+        "version": "1.0.0.0",
+        "changelog": "Initial release for Jellyfin 12.4.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/koopjm/jellyfin-plugin-musicvisualizer/releases/download/v1.0.0.0/Jellyfin.Plugin.MusicVisualizer_1.0.0.0.zip",
+        "checksum": "B4C8BD94D27BF2E8BF518B19375369BB",
+        "timestamp": "2026-11-06T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "guid": "b29e4c32-7d51-4f0b-9c23-02e1f5a8b202",
+    "name": "Voice Control",
+    "description": "Adds a Microphone button to the top toolbar (Legacy & Modern UI) with local Whisper.net speech-to-text fallback for Tesla/Firefox/Chromium voice commands.",
+    "overview": "Toolbar microphone button with local Whisper.net speech recognition",
+    "owner": "koopjm",
+    "category": "General",
+    "imageUrl": "https://raw.githubusercontent.com/koopjm/jellyfin-plugin-voicecontrol/main/thumb.png",
+    "versions": [
+      {
+        "version": "1.0.0.0",
+        "changelog": "Jellyfin 12.4 release with local Whisper.net speech-to-text fallback (AVX & NoAvx).",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/koopjm/jellyfin-plugin-voicecontrol/releases/download/v1.0.0.0/Jellyfin.Plugin.VoiceControl_1.0.0.0.zip",
+        "checksum": "1E7963A6B8234174572F8D8F44BBCDE3",
+        "timestamp": "2026-11-06T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "guid": "c30f5d43-8e62-4a1c-ad34-13f2a6b9c303",
+    "name": "Music Random",
+    "description": "Adds a dedicated 'Random' album discovery view to the Music library navigation in both Legacy and Modern UI.",
+    "overview": "Dedicated Random album discovery view in Music libraries",
+    "owner": "koopjm",
+    "category": "General",
+    "imageUrl": "https://raw.githubusercontent.com/koopjm/jellyfin-plugin-musicrandom/main/thumb.png",
+    "versions": [
+      {
+        "version": "1.0.0.0",
+        "changelog": "Initial release for Jellyfin 12.4 with responsive mobile and desktop album grid.",
+        "targetAbi": "12.4.0.0",
+        "sourceUrl": "https://github.com/koopjm/jellyfin-plugin-musicrandom/releases/download/v1.0.0.0/Jellyfin.Plugin.MusicRandom_1.0.0.0.zip",
+        "checksum": "85DB22829FF8543B28482FC154D5A667",
+        "timestamp": "2026-11-06T00:00:00Z"
+      }
+    ]
+  }
+]
